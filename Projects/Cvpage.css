@@ -1,0 +1,107 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    padding: 0 .5%;
+}
+
+.section {
+    margin: 2rem 2%;
+}
+
+.heading{
+    border-spacing: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.information {
+    padding-left: 2rem;
+}
+
+.information > *{
+    margin-bottom: 1rem;
+}
+
+.profile-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.contact-me {
+    background-color: #143f68;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+    cursor: pointer;
+    transition: 400ms all ease-in-out;
+}
+
+.contact-me:hover {
+    border: 1px solid #f0f0f0;
+    background-color: #f2d40ee0;
+    transition: 400ms all ease-in-out;
+    color: #000;
+
+}
+
+/* .content {
+    margin: 2rem 5%;
+} */
+
+h2.sub-heading {
+    color: #338335;
+    text-transform: uppercase;
+    margin: 15px 0;  
+}
+
+hr {
+    border: 3px dashed #143f68;
+}
+
+table {
+    padding: 0;
+    margin: 3rem; 
+}
+
+table tr td {
+    padding: 1rem;
+}
+
+.skills table {
+    width: 25rem;
+}
+
+.skills td {
+    padding: 0;
+    
+}
+
+.ul-pad {
+    margin: 1rem 3rem;
+}
+
+.uls {
+    margin: 1rem 2rem;
+}
+
+/* .fa-brands.fa-youtube {
+    margin-left: 5rem;
+} */
+
+footer {
+    height: 15rem;
+    background-color: #143f68;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}

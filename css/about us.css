@@ -1,0 +1,14 @@
+.Why {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 30% 0 10%;
+    /* background-color: aliceblue; */
+}
+.why-subheader {
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.958);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sections .numbered {
+    list-style-type: decimal;
+}

@@ -1,0 +1,53 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container Styles */
+.container {
+  width: 100%;
+  /* max-width: 800px;  */
+  width: 80rem;
+  margin: 5% auto;
+  padding: 3%;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Content Styles */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Montserrat;
+}
+
+/* Typography */
+span {
+  font-weight: 800;
+}
+
+.intro, h2 {
+  text-align: center;
+  font-family: Roboto;
+  color: #2093FF;
+  margin: 1.5%;
+}
+
+/* Specific ID Selector */
+#When p {
+  text-align: center;
+}
